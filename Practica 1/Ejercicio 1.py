@@ -21,10 +21,10 @@ print(edad_int)
 """Realizamos nuestra condicional"""
 
 if edad_int > 30:
-    print('Ustes tiene un bono de 10% en el mes de diciembre')
+    print('Usted tiene un bono de 10% en el mes de diciembre')
     bono_final = (salario**2)+0.10*salario
     print(bono_final)
 else:
-    print('Ustes tiene un bono del 5% en el mes de diciembre')
+    print('Usted tiene un bono del 5% en el mes de diciembre')
     bono_final = (salario ** 2) + 0.05 * salario
     print(bono_final)
